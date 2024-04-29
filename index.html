@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <img src="img/" alt="">
+        <img src="img/stars.png" alt="" class="stars">
+        <!--<img src="img/sky1.png" alt="" class="sky">-->
+        <div class="login-container">
+            <h1 class="title">Введите ваше имя</h1>
+            <div class="input">
+                <p type="text" class="input__text">Введите имя:</p>
+                <input type="text" class="input__name">
+                <button class="begin">Начать тест</button>
+            </div>
+
+        </div>
+        <div class="quiz-container">
+            <h1 class="title"></h1>
+            <div class="question" id="question">
+                <!--Здесь будет отображаться текущий вопрос-->
+                <!--Вопрос 1: какой язык программирования вы изучаете?-->
+
+            </div>
+            <div class="options" id="options">
+                <!--Здесь будут отобрааться варианты ответов-->
+                <!--
+                <button onclick="nextQuestion('JavaScript')" class="btn">JavaScript</button>
+                <button onclick="nextQuestion('Python')" class="btn">Python</button>
+                <button onclick="nextQuestion('Java')" class="btn">Java</button>
+                <button onclick="nextQuestion('C++')" class="btn">C++</button>-->
+            </div>
+            <!-- 
+            <div class="result" id="result">
+                <!-Результаты теста-->
+            <!--Результат: ___->
+            </div>
+            -->
+        </div>
+        <div class="results-container">
+            <h1 class="title">Результаты</h1>
+            <div class="results__mark">
+
+            </div>
+            <div class="results__percentage">
+
+            </div>
+            <div class="result__wrong-answers">
+                <p class="wrong-answers__title">Вы неверно ответили на следующие вопросы:</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
